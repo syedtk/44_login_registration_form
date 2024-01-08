@@ -1,10 +1,11 @@
 import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './layout/Main';
-import Body from './Component/Body/Body';
-import About from './Component/About/About';
-import Contact from './Component/Contact/Contact';
-import Home from './Component/Home/Home';
+import Body from './Component/Home/Home';
+import Product from './Component/Product/Product';
+import Register from './Component/Register/Register';
+import Login from './Component/Login/Login';
+import Shop from './Component/Shop/Shop';
 
 
 const App = () => {
@@ -18,17 +19,22 @@ const App = () => {
           element: <Body></Body>
         },
         {
-          path: '/about',
-          element: <About></About>
+          path: '/register',
+          element: <Register></Register>
         },
         {
-          path: 'contact',
-          element: <Contact></Contact>
+          path: 'login',
+          element: <Login></Login>
 
         },
         {
-          path: '/home',
-          element: <Home></Home>
+          path: '/product',
+          element: <Product></Product>
+        },
+        {
+          path: '/shop',
+          element: <Shop></Shop>,
+          loader: () =>fetch('/public/product.json')
         }
        
       ]

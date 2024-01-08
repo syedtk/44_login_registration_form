@@ -13,7 +13,7 @@ const auth = getAuth(app)
 
 
 
-const Contact = () => {
+const Login = () => {
 
   const [error,seterror] = useState(null)
   const [success,setsuccess] = useState(false)
@@ -68,7 +68,7 @@ const Contact = () => {
         </div>
         <div className='p-4'>
           <p>
-             Dont have an account <Link to={'/about'} className='bg-gray-400 w-[70px] rounded-md '>Register Now</Link> 
+             Dont have an account <Link to={'/register'} className='bg-gray-400 w-[70px] rounded-md '>Register Now</Link> 
           </p>
         </div>
         
@@ -86,4 +86,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Login;

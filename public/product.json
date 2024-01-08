@@ -1,0 +1,100 @@
+[
+    {
+        "id": "01",
+        "catagory": "Mens sneaker1",
+        "price": 100,
+        "rating": 4,
+        "stock": 10,
+        "img":"src/assets/json_img/1.webp"
+    },
+    {
+        "id": "02",
+        "catagory": "Mens sneaker11",
+        "price": 110,
+        "rating": 4,
+        "stock": 9,
+        "img":"src/assets/json_img/2.webp"
+    },
+    {
+        "id": "01",
+        "catagory": "Mens sneaker111",
+        "price": 100,
+        "rating": 4,
+        "stock": 8,
+        "img":"src/assets/json_img/3.webp"
+    },
+    
+    {
+        "id": "01",
+        "catagory": "Mens sneaker22",
+        "price": 140,
+        "rating": 4,
+        "stock": 6,
+        "img":"src/assets/json_img/5.avif"
+    },
+    {
+        "id": "02",
+        "catagory": "Mens sneaker222",
+        "price": 210,
+        "rating": 4,
+        "stock": 5,
+        "img":"src/assets/json_img/6.avif"
+    },
+    {
+        "id": "01",
+        "catagory": "Mens sneaker3",
+        "price": 200,
+        "rating": 4,
+        "stock": 4,
+        "img":"src/assets/json_img/9.avif"
+    },
+    {
+        "id": "02",
+        "catagory": "Mens sneaker33",
+        "price": 170,
+        "rating": 4,
+        "stock": 3,
+        "img":"src/assets/json_img/8.avif"
+    },
+    {
+        "id": "01",
+        "catagory": "Mens sneaker333",
+        "price": 190,
+        "rating": 3,
+        "stock": 2,
+        "img":"src/assets/json_img/9.avif"
+    },
+    {
+        "id": "01",
+        "catagory": "Mens sneaker4",
+        "price": 140,
+        "rating": 4,
+        "stock": 6,
+        "img":"src/assets/json_img/5.avif"
+    },
+    {
+        "id": "02",
+        "catagory": "Mens sneaker44",
+        "price": 130,
+        "rating": 5,
+        "stock": 1,
+        "img":"src/assets/json_img/10.avif"
+    },
+    {
+        "id": "01",
+        "catagory": "Mens sneaker444",
+        "price": 100,
+        "rating": 4,
+        "stock": 10,
+        "img":"src/assets/json_img/1.webp"
+    },
+    {
+        "id": "02",
+        "catagory": "Mens sneaker5",
+        "price": 110,
+        "rating": 4,
+        "stock": 9,
+        "img":"src/assets/json_img/2.webp"
+    }
+    
+]

@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 
 
-    const About = () => {
+    const Register = () => {
     const [success,setsuccess] = useState(false)
     const [error, seterror] = useState(null)
     const handleRegistration = (event) => {
@@ -74,7 +74,7 @@ import { Link } from 'react-router-dom';
                         </div>
                         <div className='p-4'>
                         <p>
-                        All ready have an account <Link to={'/contact'} className='bg-gray-400 w-[70px] rounded-md '>log in</Link> 
+                        All ready have an account <Link to={'/login'} className='bg-gray-400 w-[70px] rounded-md '>log in</Link> 
                         </p>
                         </div>
                         {
@@ -89,4 +89,4 @@ import { Link } from 'react-router-dom';
     );
 };
 
-export default About;
+export default Register;

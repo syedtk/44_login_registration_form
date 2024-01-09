@@ -4,19 +4,21 @@ const ShopProduct = ({product}) => {
     const {img, catagory, rating, price} = product
     return (
         <div>
-           <div className="card w-64 bg-base-100 shadow-xl">
-                <figure><img className='max-w-full' src ={img} alt="Shoes" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">{catagory}</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <p>Rating: {rating}</p>
-                    <h1 className='font-bold'>Price: {price}</h1>
-                    
-                    <div>
-                    <button className="btn bg-yellow-500 text-black btn-primary w-full">Add to Cart</button>
-                    </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg m-auto">
+                <img class="w-full" src={img} alt="Placeholder image"/>
+                <div class="px-6 py-4">
+                    <div class="font-bold">Catagori: {catagory}</div>
+                    <p class="text-gray-700 text-base">Rating:{rating}
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">Price:
+                {price}
+                </div>
+                <div>
+                <button className="btn hover:bg-gray-300 border-0 bg-yellow-500 text-black btn-primary w-full">Add to Cart</button>
                 </div>
             </div>
+
         </div>
     );
 };

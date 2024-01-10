@@ -3,17 +3,10 @@ import { useLoaderData } from 'react-router-dom';
 import ShopProduct from './Product/ShopProduct';
 
 const Shop = () => {
-    const products = useLoaderData();
+    const products = useLoaderData()
+   
 
- 
-    const renderedProducts = Array.isArray(products)
-        ? products.map(product => (
-            <ShopProduct
-                key={product.id}
-                product={product}
-            />
-        ))
-        : null;
+    
     return (
         <div className='flex container mx-auto my-20'>
             <div className='sm:w-4/5 md:px-6'>

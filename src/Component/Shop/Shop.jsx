@@ -12,7 +12,7 @@ const Shop = () => {
             <div className='sm:w-4/5 md:px-6'>
                 <div className=" my-12 container mx-auto grid sm:grid-cols-2 md:grid-cols-4 gap-3">
                 {
-                    products.map(product=>
+                    products?.map(product=>
                     <ShopProduct
                      key={product.id}
                      product={product}> 
